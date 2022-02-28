@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,
+label {
+  vertical-align: middle;
+}
+
+.h {
+  position: absolute;
+  top: -99999px;
+  opacity: 0;
+}
+
+.join {
+  width: 100%;
+  padding: 150px 0;
+}
+.join .inner {
+  width: 1180px;
+  margin: 0 auto;
+}
+.join .inner h1 {
+  font: normal 60px/1 "Raleway";
+  color: #555;
+  margin-bottom: 50px;
+}
+.join .inner table {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+.join .inner table th,
+.join .inner table td {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 16px 25px;
+}
+.join .inner table th {
+  width: 20%;
+}
+.join .inner table th input[type=reset],
+.join .inner table th input[type=submit] {
+  width: 30%;
+  height: 40px;
+  border: 1px solid #333;
+  margin: 10px;
+  font: bold 14px/40px "arial";
+  color: #555;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.join .inner table th input[type=reset]:hover,
+.join .inner table th input[type=submit]:hover {
+  background: #333;
+  color: #fff;
+}
+.join .inner table td {
+  border-left: 1px solid #ccc;
+}
+.join .inner table td input[type=text],
+.join .inner table td input[type=password],
+.join .inner table td select {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.03);
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+.join .inner table td input[type=text],
+.join .inner table td input[type=radio] {
+  margin-right: 30px;
+}
+.join .inner table td textarea {
+  width: 60%;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 10px;
+  border: 1px solid #aaa;
+  resize: none;
+}
+.join .inner table td p {
+  font: 11px/1 "맑은 고딕";
+  color: hotpink;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
